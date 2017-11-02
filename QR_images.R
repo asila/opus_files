@@ -22,8 +22,8 @@ setwd("./QRcodes_images")
 
 	#Read the file created from shiny app with alpha-numeric random codes.
 	#change path and file name 	accordingly
-	#qrc<-read.csv("d:/shiny app/new qr codes.csv") 
-	qrc<-read.csv("~/new_qrcodes.csv") 
+	
+	qrc<-read.csv("d:/shiny app/new qr codes.csv") 
 
 		qrcssn<-qrc[,1]
 	qrcssn[1]
